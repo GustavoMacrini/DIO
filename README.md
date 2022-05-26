@@ -1,3 +1,3 @@
-# Desafio de Projeto sobre Git/GitHub da DIO
-Repositório criado para o Desafio de Projeto
+# Repositório de projetos
+ Repositório para projetos desenvolvidos durante os bootcamps da Digital Inovation One
 
