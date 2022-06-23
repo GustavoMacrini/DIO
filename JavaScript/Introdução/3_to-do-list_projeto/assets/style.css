@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.wrapper{
+    /* background-color: red; */
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+#add-tarefa{
+    margin: 1.5rem 0;
+}
+
+
+#lista-tarefas{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* background-color: blueviolet; */
+    gap: 0.2rem;
+}
+
+:checked + label{
+    text-decoration:line-through;
+}
+
+.item-container{
+    margin-left: 2px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+input[type="text"]{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button{
+    padding: 5px;
+    border: 1px solid rgb(105, 197, 255);
+    color: rgb(105, 197, 255);
+    background-color: rgb(227, 248, 255);
+    border-radius: 5px;
+}
+
